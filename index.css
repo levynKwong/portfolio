@@ -195,7 +195,7 @@ body {
 
 
 
-.bin-text,.computer-text,.email-text,.works-text {
+.computer-text,.email-text,.works-text {
   text-align: center;
   font-size: 30px;
   margin-top: 10px;
@@ -213,6 +213,18 @@ body {
   position: absolute;
   left:30%
 }
+.bin-text{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  /* text bold*/
+  font-weight: bold;
+  position: absolute;
+  left:30%
+}
+
+
+
 
   /* Change the image when screen size is smaller than 768 pixels */
 @media (max-width: 768px) {
