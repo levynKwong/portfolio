@@ -115,6 +115,35 @@ body {
 }
 
 
+.menu {
+  position: absolute;
+ bottom: 3%;
+  left: 0%;
+}
+
+.menu img{
+  width: 600px;
+  height: auto;
+}
+
+
+.menu-list img{
+  position:absolute;
+  z-index: 1;
+}
+
+.smile-list img{
+  width:15%;
+  position:absolute;
+  bottom:88%;
+  margin-left: 4%;
+}
+
+
+
+
+
+
   /* Change the image when screen size is smaller than 768 pixels */
 @media (max-width: 768px) {
   .bar-footer img {
