@@ -10,25 +10,44 @@
     <link rel="stylesheet"href="https://unpkg.com/98.css">
 </head>
 <body>
-    <div class="middle-folder">
+    
+    <div class="widget" id="widget">
+        <script data-name="BMC-Widget"
+                data-cfasync="false"
+                src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+                data-id="levyn"
+                data-description="Support me on Buy me a coffee!"
+                data-message="Thank You for visiting. You can buy me a Coffee ;)"
+                data-color="#5F7FFF"
+                data-position="Right"
+                data-x_margin="18"
+                data-y_margin="18"
+                data-icon="asset/Coffee.png">
+        </script>
+      </div>
+
+
+    
+
+    <div class="middle-folder" id="middle-folder">
         <img src="asset/folder.png" alt="image" />
-        <div class="folder-text1">folder</div>
+        <!-- <div class="folder-text1">folder</div> -->
     </div>
 
-    <div class="middle-folder-close">
+    <div class="middle-folder-close" id="middle-folder-close">
         <img src="asset/folder-close.png" alt="image" />
         <div class="folder-text2">folder</div>
     </div>
 
-    <div class="bin">
+    <div class="bin" id="bin">
         <img src="asset/bin.png" alt="image" />
         <div class="bin-text">bin</div>
     </div>
-    <div class="smile">
+    <div class="smile" id="smile">
         <img src="asset/smileFace.png" alt="image" />
         <div class="profile-text">Profile</div>
     </div>
-    <!-- <div class="menu">
+    <div class="menu" id="menu">
         <img src="asset/menu.png" alt="image" />
        <div class="menu-list">
        <div class="smile-list">
@@ -36,20 +55,20 @@
            <img src="asset/smileFace.png" alt="image" />
        </div>
        </div>
-    </div> -->
-    <div class="computer">
+    </div>
+    <div class="computer" id="computer">
         <img src="asset/computer.png" alt="image" />
         <div class="computer-text">Project</div>
     </div>
-    <div class="email">
+    <div class="email" id="email">
         <img src="asset/email.png" alt="image" />
         <div class="email-text">Email</div>
     </div>
-    <div class="note">
+    <div class="note" id="note">
         <img src="asset/note.png" alt="image" />
         <div class="note-text">Note</div>
     </div>
-    <div class="work">
+    <div class="work" id="work">
         <img src="asset/work.png" alt="image" />
         <div class="works-text">Work</div>
     </div>
@@ -59,10 +78,11 @@
     <footer class="bar-footer">
         <img src="asset/bar-footer.png" alt="image" />
         <div class="welcome-text">
-            <img src="asset/welcome-button.png" alt="image" />
+            <img  id="welcome-text"src="asset/welcome-button.png" alt="image" />
             
         </div>
     </footer>
     
+    <script src="index.js"></script>
 </body>
 </html>
