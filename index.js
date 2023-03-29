@@ -35,3 +35,18 @@ middleFolder.addEventListener('click', () => {
 });
 
 
+const scrollBg = document.getElementById("scroll-bg1");
+const smileBtn = document.getElementById("smile");
+const closeBtn = document.getElementById("close1");
+
+scrollBg.style.display = 'none';
+
+smileBtn.addEventListener("click", () => {
+  scrollBg.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  scrollBg.style.display = "none";
+});
+
+
